@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 514px);
+  padding-right: calc(50% - 514px);
+}
+
+.header {
+  height: 100px;
+  background-color: dimgray;
+}
+
+.boots {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+.boots__item {
+  width: 300px;
+  border: 1px solid #E2E2E2;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.boots__item:hover {
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  -webkit-box-shadow: 1px 1px 8px 12px rgba(15, 15, 15, 0.06);
+          box-shadow: 1px 1px 8px 12px rgba(15, 15, 15, 0.06);
+}
+
+.boots__item-desc {
+  padding: 30px 20px 30px 30px;
+}
+
+.boots__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.boots__heading {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.boots__heading_color {
+  color: #333333;
+}
+
+.boots__heading_color:hover {
+  color: gray;
+}
+
+.boots__description {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #666666;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.boots__price {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.boots__price_small {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.boots__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.boots__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  width: 40px;
+  background-color: #4ED17B;
+  border-radius: 5px;
+}
+
+.boots__btn:hover {
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
